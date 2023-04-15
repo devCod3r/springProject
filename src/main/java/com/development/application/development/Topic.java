@@ -1,4 +1,4 @@
-package com.development.application.controller;
+package com.development.application.development;
 
 public class Topic {
 
