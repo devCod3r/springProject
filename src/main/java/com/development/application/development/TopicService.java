@@ -2,7 +2,6 @@ package com.development.application.development;
 
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,8 +13,7 @@ public class TopicService {
             new Topic("Java", "John", "4 Feb"),
             new Topic("JS", "Jim", "22 Mar"));
 
-
-    public List<Topic> getTopics(){
+    public List<Topic> getTopics() {
         return topics;
     }
 
